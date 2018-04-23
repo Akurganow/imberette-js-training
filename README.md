@@ -1,4 +1,4 @@
-# Aliya training
+# Imberette training
 
 ## How it works?
 
