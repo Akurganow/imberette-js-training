@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "plugin:flowtype/recommended", "plugin:jest/recommended"],
+  "plugins": ["jest", "flowtype"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "quotes": [2, "single"]
+  },
+  "env": {
+    "jest/globals": true,
+    "browser": true,
+    "es6": true,
+    "node": true
+  }
+}
