@@ -8,20 +8,20 @@ const user = {
   sex: 'male'
 }
 
-describe('Say hello', () => {
-  test('fullname', () => {
+describe('User info', () => {
+  test('getLink', () => {
     expect(
       userInfo(user).getLink()
     ).toBe('http://site.com/1')
   })
 
-  test('only name', () => {
+  test('getFullname', () => {
     expect(
       userInfo(user).getFullname()
     ).toBe('Alex Kurganov')
   })
 
-  test('only lasname', () => {
+  test('getInfo', () => {
     expect(
       userInfo(user).getInfo()
     ).toBe(`name: Alex
