@@ -4,7 +4,7 @@ describe('Combine list', () => {
   test('one item', () => {
     expect(
       resolve('one')
-    ).toBe('<ul><li class="item first only">one</li></ul>')
+    ).toBe('<ul><li class="item first last only">one</li></ul>')
   })
 
   test('three items', () => {
@@ -20,6 +20,6 @@ describe('Combine list', () => {
   test('empty', () => {
     expect(
       resolve()
-    ).toBe('<ul><li class="item only empty">Empty list</li></ul>')
+    ).toBe('<ul><li class="item first last only empty">Empty list</li></ul>')
   })
 })
